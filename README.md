@@ -13,8 +13,7 @@ Apache  Config -> PHP.ini.
 ![a (2)](https://user-images.githubusercontent.com/56240533/122107132-f2b55480-ce44-11eb-9ea6-11e86a5ae4a6.png)
 
 
-## Kemudian  Untuk melakukan instalasi Codeigniter 4  Pada praktikum ini kita menggunakan cara 
-manual.
+## Kemudian  Untuk melakukan instalasi Codeigniter 4  Pada praktikum ini dengan cara manual.
 -  Unduh Codeigniter dari website https://codeigniter.com/download
 -  Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.
 -  Ubah nama direktory framework-4.x.xx menjadi ci4.
