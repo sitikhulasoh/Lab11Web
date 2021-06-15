@@ -1,5 +1,5 @@
 # Lab11Web
-            Nama  : Siti Kulasoh
+            Nama  : Siti Khulasoh
             Kelas : TI.19.A2
             Nim   : 311910445
             
