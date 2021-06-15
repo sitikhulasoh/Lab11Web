@@ -10,7 +10,8 @@
 
 -  Buka aplikasi xampp lalu untuk mengaktifkan ekstentsi tersebut, klik  pada bagian 
 Apache  Config -> PHP.ini.
-![a](https://user-images.githubusercontent.com/56240533/122102909-28a40a00-ce40-11eb-98c1-4c59685230bd.png)
+![a (2)](https://user-images.githubusercontent.com/56240533/122107132-f2b55480-ce44-11eb-9ea6-11e86a5ae4a6.png)
+
 
 - Kemudian  Untuk melakukan instalasi Codeigniter 4  Pada praktikum ini kita menggunakan cara 
 manual.
