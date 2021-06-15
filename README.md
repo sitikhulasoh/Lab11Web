@@ -15,13 +15,13 @@ Apache  Config -> PHP.ini.
 
 - Kemudian  Untuk melakukan instalasi Codeigniter 4  Pada praktikum ini kita menggunakan cara 
 manual.
-- • Unduh Codeigniter dari website https://codeigniter.com/download
-- • Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.
-- • Ubah nama direktory framework-4.x.xx menjadi ci4.
-- • Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
+-  Unduh Codeigniter dari website https://codeigniter.com/download
+-  Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.
+-  Ubah nama direktory framework-4.x.xx menjadi ci4.
+-  Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
 ![2 (2)](https://user-images.githubusercontent.com/56240533/122103160-7fa9df00-ce40-11eb-86ed-ad98b6402808.png)
 
-- Setelah itu Arahkan lokasi direktori pada (xampp/htdocs/lab11_ci/ci4/) kemudian tulis "php spark"  untuk memanggil CLI Codeignite
+-- Setelah itu Arahkan lokasi direktori pada (xampp/htdocs/lab11_ci/ci4/) kemudian tulis "php spark"  untuk memanggil CLI Codeignite
 ![3 (2)](https://user-images.githubusercontent.com/56240533/122103752-27bfa800-ce41-11eb-8c10-661b6915d621.png)
 
 - Kmudian untuk Mengaktifkan Mode Debugging untuk mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program Secara default fitur ini belum aktif.
