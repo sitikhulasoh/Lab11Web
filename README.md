@@ -29,7 +29,7 @@ Apache  Config -> PHP.ini.
 ## Ubah nilai konfigurasi pada environment variable CI_ENVIRINMENT menjadi development, Untuk  mengetahui jenis errornya
 ![5 (2)](https://user-images.githubusercontent.com/56240533/122104378-cfd57100-ce41-11eb-9760-1bab5ce509b0.png)
 
-- Tambahkan kode
+### Tambahkan kode
 - $routes->get('/about', 'Page::about');
 - $routes->get('/contact', 'Page::contact');
 - $routes->get('/faqs', 'Page::faqs'); di dalam Routes.php, lalu jalankan "php spark routes"
