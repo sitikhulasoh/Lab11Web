@@ -60,3 +60,91 @@ Apache  Config -> PHP.ini.
 ![12 (2)](https://user-images.githubusercontent.com/56240533/122106982-c699d380-ce44-11eb-8f1a-5ae3413bad7c.png)
 
 
+# PRAKTIKUM 12 PEMOGRAMAN WEB
+
+            siti khulasoh
+            311910445
+            TI.19.A2
+
+## Langkah-langkah praktikum
+
+### jalankan terlebih dahulu  MySQL Server melalui XAMPP
+#### Buatlah database  sebagai berikut untuk menampilkan tabel
+![15 (2)](https://user-images.githubusercontent.com/56240533/122954934-1418c200-d3aa-11eb-837b-45b9cd654ee3.png) 
+![16 (2)](https://user-images.githubusercontent.com/56240533/122955601-707be180-d3aa-11eb-804c-756ef0cee1b2.png)
+
+### Konfigurasi koneksi database dengan menggunakan file .env.
+![17 (2)](https://user-images.githubusercontent.com/56240533/122955953-c781b680-d3aa-11eb-858d-13c677282a65.png)
+
+## Membuat Model
+### Buatlah file baru pada direktori app/Models dengan nama *ArtikelModel.php*
+![18 (2)](https://user-images.githubusercontent.com/56240533/122956222-0152bd00-d3ab-11eb-86bd-ff396b308ef1.png)
+
+## Membuat Controller
+### Buatlah  Controller baru dengan nama *Artikel.php* pada direktori app/Controllers.
+![19 (2)](https://user-images.githubusercontent.com/56240533/122956381-26473000-d3ab-11eb-8079-11f0965d4fcb.png)
+
+## Membuat View
+### Buatlah  direktori baru dengan nama artikel pada direktori app/views, kemudian buat  file baru dengan nama *index.php.* 
+![20 (2)](https://user-images.githubusercontent.com/56240533/122956835-8dfd7b00-d3ab-11eb-840a-2b95085a0172.png)
+### kemudian buka browser dengan mengakses url http://localhost:8080/artikel untuk melihat hasilnya.
+![21 (2)](https://user-images.githubusercontent.com/56240533/122957056-c309cd80-d3ab-11eb-92dd-3fd1a3457897.png)
+
+### kemudian tambahkan data pada database agar dapat ditampilkan datanya.
+![14 (2)](https://user-images.githubusercontent.com/56240533/122958084-bdf94e00-d3ac-11eb-8fb8-e75412c9f147.png)
+- refresh kembali browsernya  untuk melihat hasilnya
+![22 (2)](https://user-images.githubusercontent.com/56240533/122958441-0add2480-d3ad-11eb-9a91-c2a03f45700b.png)
+
+## Membuat Tampilan Detail Artikel
+### Tambahkan fungsi baru pada Controller Artikel dengan nama view().
+![23 (2)](https://user-images.githubusercontent.com/56240533/122959828-555ea100-d3ad-11eb-82c7-ad0d08169d8e.png)
+
+## Membuat View Detail
+### Buatlah file  pada direktori app/artikel dengan nama *detail.php.*
+![24 (2)](https://user-images.githubusercontent.com/56240533/122960509-ad95a300-d3ad-11eb-8f9d-ce9ff83c1b94.png)
+
+## Membuat Routing untuk artikel detail
+### tambahkan routing untuk artikel detail pada  file app/config/Routes.php
+![25 (2)](https://user-images.githubusercontent.com/56240533/122960801-fc433d00-d3ad-11eb-9efd-b101dce2cc16.png)
+
+## Membuat Menu Admin
+### Buatlah method baru pada Controller Artikel dengan nama admin_index().
+![26 (2)](https://user-images.githubusercontent.com/56240533/122963461-7a084800-d3b0-11eb-996e-71e380e036f3.png)
+
+### Tambahkan routing untuk menu admin seperti berikut:
+![27 (2)](https://user-images.githubusercontent.com/56240533/122963601-9f955180-d3b0-11eb-8b65-2154692bf561.png)
+#### hasil dari mengakses url http://localhost:8080/admin/artikel
+![28 (2)](https://user-images.githubusercontent.com/56240533/122963861-e08d6600-d3b0-11eb-913e-12e375ee052e.png)
+
+## Menambah Data Artike
+### Tambahkan fungsi/method baru add(). pada  Controller Artikel 
+![29 (2)](https://user-images.githubusercontent.com/56240533/122964188-319d5a00-d3b1-11eb-8cea-310390e96aec.png)
+### Kemudian buat file pada view  dengan nama form_add.php
+![30 (2)](https://user-images.githubusercontent.com/56240533/122964629-a7a1c100-d3b1-11eb-9dbe-868c4b6482df.png)
+#### hasil dari merefresh browser
+![31 (2)](https://user-images.githubusercontent.com/56240533/122964761-cbfd9d80-d3b1-11eb-9086-87d21d4943c8.png)
+refresh browsernya
+
+## Mengubah Data
+### Tambahkan fungsi *edit()*. pada Controller Artikel 
+![32 (2)](https://user-images.githubusercontent.com/56240533/122965039-13842980-d3b2-11eb-9c18-bce23db183a3.png)
+
+### Kemudian buat file pada view untuk form tambah dengan nama *form_edit.php*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
