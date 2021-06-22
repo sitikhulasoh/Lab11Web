@@ -8,8 +8,7 @@
 
 ## Langkah-langkah
 
-## Buka aplikasi xampp lalu untuk mengaktifkan ekstentsi tersebut, klik  pada bagian 
-Apache  Config -> PHP.ini.
+## Buka aplikasi xampp lalu untuk mengaktifkan ekstentsi tersebut, klik  pada bagian Apache  Config -> PHP.ini.
 ![a (2)](https://user-images.githubusercontent.com/56240533/122107132-f2b55480-ce44-11eb-9ea6-11e86a5ae4a6.png)
 
 
