@@ -130,6 +130,15 @@ refresh browsernya
 ![32 (2)](https://user-images.githubusercontent.com/56240533/122965039-13842980-d3b2-11eb-9c18-bce23db183a3.png)
 
 ### Kemudian buat file pada view untuk form tambah dengan nama *form_edit.php*
+![edit (2)](https://user-images.githubusercontent.com/56240533/122966374-71654100-d3b3-11eb-9fcc-859ad04fbf52.png)
+- berikut hasilnya
+![33 (2)](https://user-images.githubusercontent.com/56240533/122966469-90fc6980-d3b3-11eb-86ba-2f467fb26755.png)
+
+## Menghapus Data
+### Tambahkan fungsi *delete().* pada Controller Artikel 
+![34 (2)](https://user-images.githubusercontent.com/56240533/122966626-bd17ea80-d3b3-11eb-9a18-efe276917e6c.png)
+
+
 
 
 
