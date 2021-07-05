@@ -205,6 +205,14 @@ refresh browsernya
 
 ![15 (2)](https://user-images.githubusercontent.com/56240533/123654145-fd65e580-d857-11eb-941d-b2625235614c.png)
 
+# Praktikum 14
+
+            Nama        : Siti Khulasoh
+            Kelas       : TI.19.A2
+            Nim         : 311910445
+           
+ 
+
 
 
 
