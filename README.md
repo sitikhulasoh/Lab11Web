@@ -205,11 +205,48 @@ refresh browsernya
 
 ![15 (2)](https://user-images.githubusercontent.com/56240533/123654145-fd65e580-d857-11eb-941d-b2625235614c.png)
 
-# Praktikum 14
+# Praktikum 14 Pemrograman Web (Framework Lanjutan - Pagination dan Pencarian)
 
             Nama        : Siti Khulasoh
             Kelas       : TI.19.A2
             Nim         : 311910445
+          
+ ## LANGKAH 1 - Membuat Pagination
+ 
+ ### Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
+![1 (2)](https://user-images.githubusercontent.com/56240533/124505520-e4c77380-ddf3-11eb-9ed8-1c6846e8c440.png)
+
+### Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikutdibawah deklarasi tabel data
+![2 (2)](https://user-images.githubusercontent.com/56240533/124505573-0163ab80-ddf4-11eb-84da-48c18bb229a6.png)
+
+### Selanjutnya buka kembali menu daftar artikel Pada chrome, tambahkan data lagi untuk melihat hasilnya.
+
+## langkah 2- Membuat Pencarian
+
+### buka kembali Controller/Artikel, pada method admin_index ubah kodenya seperti berikut
+ ![4 (2)](https://user-images.githubusercontent.com/56240533/124505885-b1391900-ddf4-11eb-94fb-0489dbb025fd.png)
+
+### Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+![5 (2)](https://user-images.githubusercontent.com/56240533/124505933-c9109d00-ddf4-11eb-9f0e-a127056cf6f8.png)
+
+### Dan pada link pager ubah seperti berikut:
+![6 (2)](https://user-images.githubusercontent.com/56240533/124505995-ef363d00-ddf4-11eb-9f50-db7451357a2c.png)
+
+### Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian
+![7 (2)](https://user-images.githubusercontent.com/56240533/124506064-1725a080-ddf5-11eb-9572-b099507fb0a2.png)
+
+## Langkah 3 - Upload Gambar
+
+### Buka kembali Controller/Artikel, sesuaikan kode pada method add seperti berikut:
+![9a (2)](https://user-images.githubusercontent.com/56240533/124506160-44724e80-ddf5-11eb-8e3c-a785197dc0a8.png)
+
+### Kemudian pada file views/artikel/form_add.php tambahkan field input file serta sesuaikan tag form dengan menambahkan ecrypt type <form action="" method="post" enctype="multipart/form-data"> dan tambahkan field input file:
+![10 (2)](https://user-images.githubusercontent.com/56240533/124506278-800d1880-ddf5-11eb-8480-f5812a7b5586.png)
+            
+### Ujicoba file upload dengan mengakses menu tambah artikel.
+![8a (2)](https://user-images.githubusercontent.com/56240533/124506375-ad59c680-ddf5-11eb-8126-471104a1b5d0.png)
+            
+
            
  
 
